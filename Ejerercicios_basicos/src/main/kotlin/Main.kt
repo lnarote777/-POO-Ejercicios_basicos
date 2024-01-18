@@ -10,14 +10,11 @@ fun main() {
     persona1.cambiarNombre()
     println(persona1.toString()) // Nombre cambiado
     println()
-    Thread.sleep(1000)
     persona2.mostrarDesc()
     println()
-    Thread.sleep(1000)
     persona3.mostrarDesc()
     println() // Cambio altura persona3
     persona3.altura = 1.80
-    Thread.sleep(1000)
     persona3.mostrarDesc()
 
     /**
@@ -32,7 +29,7 @@ fun main() {
             println("${persona3.nombre} es más alto que ${persona2.nombre}")
         }
     }
-    Thread.sleep(1000)
+
     persona2.altura = persona3.altura
     comparador()
 
