@@ -15,27 +15,29 @@
 class Coche(){
 
     var color: String = ""
-    var marca: String = ""
-    var modelo: String = ""
-    var nCaballos: Int = 0
-    var nPuertas: Int = 0
-    var matricula: String = ""
-
     fun getColor(){}
     fun setColor(){}
 
+    var marca: String = ""
     fun getMarca(){}
     fun setMarca(){}
 
+    var modelo: String = ""
     fun getModelo(){}
     fun setModelo(){}
 
+    var nCaballos: Int = 0
     fun getCaballos(){}
     fun setCaballos(){}
 
+    var nPuertas: Int = 0
     fun getPuertas(){}
     fun setPuertas(){}
 
+    var matricula: String = ""
     fun getMatriculas(){}
     fun setMatriculas(){}
+
+
+
 }
