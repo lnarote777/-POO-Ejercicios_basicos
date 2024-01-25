@@ -14,30 +14,50 @@
 
 class Coche(){
 
-    var color: String = ""
-    fun getColor(){}
-    fun setColor(){}
+    private var color: String = ""
+    fun getColor(): String {return color}
+    fun setColor(){
 
-    var marca: String = ""
-    fun getMarca(){}
-    fun setMarca(){}
+    }
 
-    var modelo: String = ""
-    fun getModelo(){}
-    fun setModelo(){}
+    private var marca: String = ""
+    fun getMarca(): String {return this.marca}
+    fun setMarca(){
 
-    var nCaballos: Int = 0
-    fun getCaballos(){}
-    fun setCaballos(){}
+    }
 
-    var nPuertas: Int = 0
-    fun getPuertas(){}
-    fun setPuertas(){}
+    private var modelo: String = ""
+    fun getModelo(): String {return this.modelo}
+    fun setModelo(){
 
-    var matricula: String = ""
-    fun getMatriculas(){}
-    fun setMatriculas(){}
+    }
+
+    private var nCaballos: Int = 0
+    fun getCaballos(): Int {return this.nCaballos}
+    fun setCaballos(){
+
+    }
+
+    private var nPuertas: Int = 0
+    fun getPuertas(): Int {return this.nPuertas}
+    fun setPuertas(){
+
+    }
+
+    private var matricula: String = ""
+    fun getMatriculas(): String {return this.matricula}
+    fun setMatriculas(){
+
+    }
 
 
+    fun mostrarCoche(){
+        println("Matrícula: ${this.matricula}")
+        println("Marca: ${this.marca}")
+        println("Modelo: ${this.modelo}")
+        println("Color: ${this.color}")
+        println("Nº Caballos: ${this.nCaballos}")
+        println("Nº Puertas: ${this.nPuertas}")
+    }
 
 }
